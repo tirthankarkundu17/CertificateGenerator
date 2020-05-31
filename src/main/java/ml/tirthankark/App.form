@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ml.tirthankark.App">
+  <grid id="27dc6" binding="panelMain" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="111" y="20" width="591" height="598"/>
+    </constraints>
+    <properties>
+      <preferredSize width="500" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1db4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <preferredSize width="500" height="16"/>
+          <text value="Cloudhub Logs Downloader"/>
+        </properties>
+      </component>
+      <component id="36b6e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="160" height="30"/>
+          <text value="Username"/>
+        </properties>
+      </component>
+      <component id="3801a" class="javax.swing.JTextField" binding="tfUsername">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="30"/>
+        </properties>
+      </component>
+      <component id="5c9c8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="160" height="30"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="268db" class="javax.swing.JPasswordField">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="30"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="ac438" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="160" height="30"/>
+          <text value="Log Search"/>
+        </properties>
+      </component>
+      <component id="72d00" class="javax.swing.JTextField" binding="tfLogSearch">
+        <constraints/>
+        <properties>
+          <preferredSize width="300" height="30"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
